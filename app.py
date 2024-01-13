@@ -18,3 +18,6 @@ def profile(username):
 @app.route('/index')
 def test():
     return render_template('index.html')
+
+def hi():
+    return 'hi'
